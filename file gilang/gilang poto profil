@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Biodata Diri</title>
+    <style>
+        /* Menggunakan font modern dari Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        /* Pengaturan dasar halaman */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7f6; /* Warna latar belakang abu-abu terang */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Gaya untuk kartu biodata */
+        main {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 500px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); /* Efek bayangan */
+        }
+
+        /* Bagian atas (Header & Foto) */
+        header {
+            text-align: center;
+        }
+
+        .foto-profil {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%; /* Membuat foto menjadi bulat */
+            object-fit: cover;
+            border: 4px solid #4a90e2; /* Garis pinggir biru */
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 10px 0 5px;
+            font-size: 24px;
+            color: #2c3e50;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 14px;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+
+        /* Garis pemisah */
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ecf0f1;
+            margin: 25px 0;
+        }
+
+        /* Bagian Informasi & Tentang Saya */
+        h2, h3 {
+            font-size: 18px;
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+
+        /* Pengaturan Tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: left;
+            font-weight: 600;
+            color: #2c3e50;
+            width: 45%;
+            padding: 8px 0;
+            vertical-align: top;
+        }
+
+        td {
+            padding: 8px 0;
+            color: #555;
+            vertical-align: top;
+        }
+
+        article p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <!-- Ganti 'foto-anda.jpg' dengan nama file foto profil Anda yang sebenarnya -->
+            <img src="https://ui-avatars.com/api/?name=Gilang+Nur+Ramadhani&background=4a90e2&color=fff&size=150" alt="Foto Profil Gilang" class="foto-profil">
+            
+            <h1>Gilang Nur Ramadhani</h1>
+            <p>Mahasiswa Sistem Informasi</p>
+        </header>
+
+        <hr>
+
+        <section>
+            <h2>Inform
